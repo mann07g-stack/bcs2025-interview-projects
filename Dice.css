@@ -1,0 +1,76 @@
+#Video{
+    position: fixed;
+    top: 0;
+    left:0;
+   
+    width: 1900px;
+    height: 1000px;
+
+    object-fit: cover;
+    z-index: -1;
+}
+.heading{
+    position: relative;
+    color: white;
+
+    text-align: center;
+    padding-top: 10vh;
+    font-family: "Patrick Hand", cursive;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 70px;
+
+
+
+}
+.dice{
+    margin-top: 40px;
+  
+
+    position: relative;
+    color: white;
+
+    text-align: center;
+    padding-top: 10vh;
+   
+    
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+ 
+    font-size: 100px;
+    
+}
+#dice{
+    font-size: 10rem;
+    transition: transform 0.5s ease;
+}
+#roll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    text-align: center;
+    
+    font-family:cursive;
+    background: rgba(0,0,0, 0.3);
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+#roll:hover{
+    background-color: rgba(253, 85, 85, 0.497);
+}
+.dice_rotate{
+    transform: rotate(720deg) scale(1.2);
+}
+
